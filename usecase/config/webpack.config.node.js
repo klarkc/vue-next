@@ -27,7 +27,6 @@ module.exports = {
   },
   resolve: {
     alias: {
-      // '@vue/server-renderer$': 'c:\\tests\\vue-next\\packages\\server-renderer\\dist\\server-renderer.basic-cjs.js',
       '@vue/runtime-core$': require.resolve(
         '@vue/runtime-core/dist/runtime-core.cjs.js'
       )
